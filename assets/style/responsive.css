@@ -1,0 +1,101 @@
+@media only screen and (min-width: 768px) {
+  .main-content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+
+  .fixed {
+    position: fixed;
+  }
+
+  .right-30 {
+    right: 30px;
+  }
+
+  .w-30 {
+    width: 30%;
+  }
+
+  .blog-content {
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .px-4 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .main-content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+
+  .h-48 {
+    height: 16rem;
+  }
+
+  .h-56 {
+    height: 20rem;
+  }
+
+  .h-16 {
+    height: 6rem;
+  }
+
+  .w-16 {
+    width: 8rem;
+  }
+
+  .text-lg {
+    font-size: 1.5rem;
+  }
+
+  .text-xl {
+    font-size: 2rem;
+  }
+
+  li a {
+    font-size: 2rem;
+  }
+
+  .text-4xl {
+    font-size: 3rem;
+  }
+
+  .text-3xl {
+    font-size: 2.5rem;
+  }
+
+  .py-2 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .text-sm {
+    font-size: 1.5rem;
+  }
+
+  .link-active {
+    text-underline-offset: 6px;
+  }
+
+  .indent-8 {
+    text-indent: 4rem;
+  }
+}
